@@ -1,0 +1,9 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+.logindiv {
+  background-image: url("./assets/images/bg-presentation.889630297390d27e8dfb.jpg");
+  background-position: right;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
