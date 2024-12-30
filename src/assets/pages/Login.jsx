@@ -47,7 +47,7 @@ const Login = () => {
     }
     console.log(data)
     try {
-      const responce = await axios.post("http://localhost:4000/api/admin/admin-login", data)
+      const responce = await axios.post("https://stark-server.onrender.com/api/admin/admin-login", data)
       if(responce.status !== 200) return alert("Invalid username or password")
         nav("/deshboard")
     }
