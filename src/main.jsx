@@ -5,6 +5,7 @@ import Login from './assets/pages/Login'
 import { createBrowserRouter } from 'react-router-dom'
 import { RouterProvider } from 'react-router'
 import Deshboard from './assets/pages/deshboard'
+import Updatepassword from './assets/pages/Updatepassword'
 // import App from './App.jsx'
 
 const routes = createBrowserRouter([
@@ -15,6 +16,10 @@ const routes = createBrowserRouter([
   {
     path:"deshboard",
     element:<Deshboard/>
+  },
+  {
+    path:"/update-password",
+    element:<Updatepassword/>
   }
 
 ])
